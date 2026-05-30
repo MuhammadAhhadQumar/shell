@@ -3,9 +3,9 @@ import QtQuick
 
 Rectangle {
     anchors.centerIn: parent
-    color: Colors.color2
-    implicitWidth: time.width + 25
-    implicitHeight: time.height + 14
+    color: Colors.color1
+    implicitWidth: time.width + 20
+    implicitHeight: time.height + 10
     radius: 15
     Text {
         id: time

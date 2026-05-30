@@ -20,7 +20,7 @@ Scope {
                 anchors.topMargin: 5
                 color: Colors.background
                 radius: 20
-
+                Workspaces {anchors.left:parent.left; anchors.verticalCenter:parent.verticalCenter; anchors.leftMargin: 10}
                 Clock {}
             }
         }
